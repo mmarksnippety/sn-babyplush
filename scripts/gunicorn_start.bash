@@ -59,4 +59,5 @@ exec gunicorn ${DJANGO_WSGI_MODULE}:application \
   --error-logfile=- \
   --access-logfile=- \
   --log-level=debug \
-  --debug
+
+#  --debug
