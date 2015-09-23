@@ -109,3 +109,5 @@ target/
 
 *.sqlite3
 babyplush/components
+babyplush/public/
+babyplush/runtime/cache/
