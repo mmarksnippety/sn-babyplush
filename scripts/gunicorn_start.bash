@@ -16,7 +16,7 @@ CWD=$(dirname $(readlink -f "$0"))
 PROJECT_DIR=$(readlink -f "$CWD/../")
 
 # Django project name
-DJANGO_PROJECT_NAME='orgparts'
+DJANGO_PROJECT_NAME='babyplush'
 
 # Name of project is taken from base project dir, not from django dir (./../../),
 # This catalog is virtualenv name too
