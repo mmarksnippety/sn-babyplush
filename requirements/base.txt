@@ -1,0 +1,26 @@
+django
+django-braces
+django-grappelli
+django-bower
+django-pipeline
+django-crispy-forms
+django-wysiwyg-redactor
+
+-e git+git@github.com:mmarksnippety/django-sn-pipeline.git@master#egg=django_sn_pipeline
+
+logutils
+pytz
+ipython
+pillow
+bcrypt
+psycopg2
+
+## REST
+#djangorestframework
+#django-filter
+#markdown
+
+## deploy
+#plumbum
+#paramiko
+

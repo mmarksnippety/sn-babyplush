@@ -1,0 +1,27 @@
+{% load pipeline %}
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Babyplush</title>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        {% block meta %}{% endblock meta %}
+        {% javascript 'head' %}
+        {% stylesheet 'head' %}
+        {% block extra_css %}{% endblock extra_css %}
+    </head>
+
+    <body>
+        {% block body %}
+        <h1>Babyplush!</h1>
+        {% endblock body %}
+        {% javascript 'body' %}
+    </body>
+</html>
+
+
+
