@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # The user to run as
-USER=www-data
+USER=app
 
 # The group to run as
-GROUP=www-data
+GROUP=app
 
 # How many worker processes should Gunicorn spawn
 NUM_WORKERS=3
